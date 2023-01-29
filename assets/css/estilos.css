@@ -1,16 +1,16 @@
 /* Navbar */
 
 .navbar {
-  background-color: #000000;
+  background-color: #308D92;
   position: fixed;
   z-index: 1;
   width: 100vw;
 }
 
 .navbar-brand {
-  font-family: "Oswald";
-  font-weight: bold;
+  font-weight: italic;
   font-size: 40px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 /* Hero - Section */
@@ -26,7 +26,7 @@
 
 #Hero-Section div {
   position: absolute;
-  bottom: 40px;
+  bottom: 5px;
   left: 0;
   right: 0;
   margin: auto;
@@ -38,14 +38,14 @@
 }
 
 #Hero-Section h1:first-child {
-  font-family: "Oswald";
-  font-weight: 200;
+  font-family: "Josefin Sans";
+  font-weight: 300;
   font-size: 72px;
 }
 
 #Hero-Section h1:last-child {
-  font-family: "Oswald";
-  font-weight: 900;
+  font-family: "Josefin Sans";
+  font-weight: 400;
   font-size: 72px;
 }
 
@@ -53,53 +53,58 @@
 
 #Sobre-Mi {
   color: #373a3c;
+  
 }
 
 #Sobre-Mi hr {
   width: 115px;
   height: 1pt;
+  
 }
 
 #Sobre-Mi div:last-child,
 #Sobre-Mi h4 {
-  font-family: "Open Sans";
+  font-family: "Josefin Sans";
   line-height: 3;
+  
 }
 
 #Sobre-Mi h4 {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 /* Mi Experiencia */
 
 #Experiencia i {
-  color: #0915ed;
+  color: #308D92;
+   
 }
 
 #Experiencia div hr {
   width: 150px;
   border: 1px solid;
-  background: black;
+  background: #308D92;
+ 
 }
 
 #Experiencia div h1 {
   font-size: 52px;
-  font-family: "Oswald";
+  font-family: "Josefin Sans";
 }
 
 #Experiencia div:last-child article h4:first-child {
-  font-family: "Oswald";
+  font-family: "Josefin Sans";
 }
 
 #Experiencia div:last-child article h4:last-child {
-  font-family: "Open Sans";
-  font-weight: 300;
+  font-family: "Josefin Sans";
+  font-weight: 200;
 }
 
 /* Mis últimos trabajos */
 
 #Trabajos {
-  background-color: #0915ed;
+  background-color: #EDA68B;
 }
 
 #Trabajos h1 {
@@ -112,13 +117,13 @@
 }
 
 #Trabajos h4 {
-  font-family: "Oswald";
+  font-family: "Josefin Sans";
 }
 
 /* Contacto */
 
 #Contacto div h1 {
-  font-family: "Oswald";
+  font-family: "Josefin Sans";
   font-size: 52px;
 }
 
@@ -130,14 +135,14 @@
 /*  Footer */
 
 #Footer {
-  background-color: #000000;
+  background-color: #F4BC40;
 }
 
 #Footer h1 {
-  font-family: "Oswald";
+  font-family: "Josefin Sans";
 }
 
-@media (max-width: 576px) {
+@media (max-width: 400px) {
   #Hero-Section h1:first-child,
   #Hero-Section h1:last-child {
     font-size: 40px;
